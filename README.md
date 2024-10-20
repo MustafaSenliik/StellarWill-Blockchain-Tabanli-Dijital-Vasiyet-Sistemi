@@ -34,36 +34,35 @@ Dağıtım:
 
 Stellar Testnet üzerinde projeyi yayınlama ve kullanıma sunma.
 🛠 Kurulum Rehberi
+
 Gerekli Araçlar:
 Rust kurulumu.
 Stellar CLI kurulumu.
 Hedef platform: wasm32-unknown-unknown
+
 Adımlar:
 Projeyi Klonlayın:
 
-bash
-Kodu kopyala
+
 git clone https://github.com/MustafaSenliik/StellarWill-Blockchain-Tabanli-Dijital-Vasiyet-Sistemi.git
 cd StellarWill-Blockchain-Tabanli-Dijital-Vasiyet-Sistemi
 Bağımlılıkları Yükleyin:
 
-bash
-Kodu kopyala
+
 cargo build --target wasm32-unknown-unknown --release
 Testnet’e Dağıtım:
 
-bash
-Kodu kopyala
+
+
 soroban deploy --source ACCOUNT --network testnet
 Frontend’i Yükleyin ve Çalıştırın:
 
-bash
-Kodu kopyala
+
+
 cd frontend
 npm install
 npm start
 Proje Testleri:
 
-bash
-Kodu kopyala
+
 cargo test
