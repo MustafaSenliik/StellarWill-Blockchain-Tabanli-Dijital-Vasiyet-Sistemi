@@ -20,6 +20,7 @@ Dijital dünyanın hızla büyüdüğü bir çağda, StellarWill ile miras ve va
 
 📊 Bakiye Sorgulama: Kullanıcılar bakiyelerini sorgulayabilir ve mevcut varlıklarını kontrol edebilir.
 
+
 🛠 Yazılım Geliştirme Planı
 
 Akıllı Sözleşme Geliştirme:
