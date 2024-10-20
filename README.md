@@ -13,10 +13,15 @@ Dijital dünyanın hızla büyüdüğü bir çağda, StellarWill ile miras ve va
 💡 Öne Çıkan Özellikler
 
 🔐 Güvenli Varlık Aktarımı: Varlıklarınız Stellar blockchain üzerinde güvenli bir şekilde saklanır ve belirlenen tarihte otomatik olarak mirasçıya aktarılır.
+
 🕒 Zaman Kilidi: Varlık transferi, yalnızca belirlediğiniz açılma zamanında gerçekleşir, böylece kontrol tamamen sizde olur.
+
 📜 Şeffaflık: Tüm vasiyet işlemleri blockchain üzerinde kaydedilir ve herkes tarafından denetlenebilir.
+
 📊 Bakiye Sorgulama: Kullanıcılar bakiyelerini sorgulayabilir ve mevcut varlıklarını kontrol edebilir.
+
 🛠 Yazılım Geliştirme Planı
+
 Akıllı Sözleşme Geliştirme:
 
 Fonksiyonlar: Vasiyet oluşturma, vasiyeti açma, bakiye sorgulama.
@@ -24,20 +29,26 @@ Değişkenler: Sahip, mirasçı, varlık miktarı, mesaj, açılma zamanı.
 Veri Depolama:
 
 Kalıcı depolama sistemi ile vasiyet ve varlık bilgilerinin güvenli bir şekilde saklanması.
+
 Frontend Geliştirme:
 
 Kullanıcı dostu bir arayüz ile vasiyet oluşturma ve açma işlemlerinin gerçekleştirilmesi.
+
 Testler:
 
 Akıllı sözleşme fonksiyonlarının ve frontend entegrasyonunun test edilmesi.
+
 Dağıtım:
 
 Stellar Testnet üzerinde projeyi yayınlama ve kullanıma sunma.
+
 🛠 Kurulum Rehberi
 
 Gerekli Araçlar:
 Rust kurulumu.
+
 Stellar CLI kurulumu.
+
 Hedef platform: wasm32-unknown-unknown
 
 Adımlar:
@@ -45,7 +56,9 @@ Projeyi Klonlayın:
 
 
 git clone https://github.com/MustafaSenliik/StellarWill-Blockchain-Tabanli-Dijital-Vasiyet-Sistemi.git
+
 cd StellarWill-Blockchain-Tabanli-Dijital-Vasiyet-Sistemi
+
 Bağımlılıkları Yükleyin:
 
 
